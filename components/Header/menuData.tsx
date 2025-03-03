@@ -16,7 +16,7 @@ const menuData: Menu[] = [
   {
     id: 3,
     title: "Single Post",
-    path: "/single-post",
+    path: "/post-details",
     newTab: false,
   },
   {
@@ -77,8 +77,8 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Contact",
-    path: "/contact",
+    title: "Author",
+    path: "/author-profile",
     newTab: false,
   },
 ];
