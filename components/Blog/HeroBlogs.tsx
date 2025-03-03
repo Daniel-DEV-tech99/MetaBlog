@@ -5,7 +5,7 @@ export default function HeroBlogs() {
   return (
      <section className="container ">
         <div className="relative rounded-xl overflow-hidden">
-          <Image
+          <img
             src="/images/hero/hero.png"
             alt="Featured post image"
             width={1200}

@@ -6,9 +6,9 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
   return (
 
       <article className="border border-[#E8E8EA] dark:border-gray-700 rounded-xl overflow-hidden p-4">
-            <Image
+            <img
               src="/images/hero/post.png"
-              alt="Beach view"
+              alt="post"
               width={380}
               height={220}
               className="w-full h-[220px] rounded-md object-cover"
