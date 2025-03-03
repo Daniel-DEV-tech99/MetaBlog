@@ -1,46 +1,48 @@
-# Startup - Free Next.js Startup Website Template
+# MetaBlog
 
-Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+MetaBlog is a modern, responsive blog platform built with Next.js and Tailwind CSS. It features a clean design, dark mode support, and a variety of page templates for different blog functionalities.
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+## Features
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js 13 and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
+- Responsive design that works on desktop, tablet, and mobile devices
+- Dark mode support for comfortable reading in low-light environments
+- Multiple page templates including:
+  - Home page with featured posts and latest articles
+  - Blog listing page
+  - Single post page with author information and related posts
+  - Author profile page
+  - Contact page
+- Newsletter subscription functionality
+- Search functionality (frontend implementation)
+- Social media integration
+- - **Newsletter Subscription**: Stay updated with new content
+- **Search Functionality** (Frontend implementation)
+- **Social Media Integration**: Share articles easily
+- **SEO Optimized**: Metadata, Open Graph tags, and structured data for better search rankings
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+## Technologies Used
 
-[![Startup Pro](https://cdn.nextjstemplates.com/Startup-Pro---Next.js-Starter-Template-for-SaaS-Startups-282e26f7-f543-4ae4-a777-ac306c08cce8.png)](https://nextjstemplates.com/templates/saas-starter-startup)
+- [Next.js](https://nextjs.org/) - React framework for server-side rendering and static site generation
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
+- [Lucide React](https://lucide.dev/) - Icon set for React
 
-Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
+## Getting Started
 
+To get a local copy up and running, follow these steps:
 
-### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
+### **1️⃣ Clone the Repository**
 
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
+```sh
+git clone https://github.com/Daniel-DEV-tech99/MetaBlogs.git
 
-### [📦 Download](https://nextjstemplates.com/templates/startup)
-
-### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
-
-### [🔌 Documentation](https://nextjstemplates.com/docs)
-
-### ⚡ Deploy Now
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
-
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
-
-
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
-
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
-
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
+### **2️⃣ Navigate into the Project Directory**
+```sh
+cd MetaBlogs
+### **3️⃣ Install Dependencies**
+```sh
+npm install
+### **4️⃣ Run the Development Server**
+```sh
+npm run dev
