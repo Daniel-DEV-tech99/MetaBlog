@@ -1,14 +1,6 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/author-profile/page": "app/author-profile/page.js",
-  "/post-details/page": "app/post-details/page.js",
-  "/about/page": "app/about/page.js",
-  "/blog-details/page": "app/blog-details/page.js",
-  "/blog-sidebar/page": "app/blog-sidebar/page.js",
-  "/error/page": "app/error/page.js",
-  "/contact/page": "app/contact/page.js",
   "/blog/page": "app/blog/page.js",
   "/page": "app/page.js",
-  "/signin/page": "app/signin/page.js",
-  "/signup/page": "app/signup/page.js"
+  "/post-details/page": "app/post-details/page.js",
+  "/author-profile/page": "app/author-profile/page.js"
 }
