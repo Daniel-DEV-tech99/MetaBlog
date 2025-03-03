@@ -14,7 +14,7 @@ const ThemeToggler = () => {
 
       {/* Toggle Switch */}
       <div
-        className={`relative w-12 h-7 flex items-center rounded-full p-1 cursor-pointer transition
+        className={`relative w-12 h-7 flex items-center rounded-full  cursor-pointer transition
           ${enabled ? "bg-primary" : "bg-gray-300"}`}
         onClick={() => {
           setEnabled(!enabled);
