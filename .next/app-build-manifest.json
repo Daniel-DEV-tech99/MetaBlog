@@ -16,15 +16,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/blog/page.js"
     ],
-    "/post-details/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/post-details/page.js"
-    ],
-    "/author-profile/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/author-profile/page.js"
+      "static/chunks/app/not-found.js"
     ]
   }
 }

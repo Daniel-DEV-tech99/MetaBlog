@@ -5,13 +5,14 @@ export default function HeroBlogs() {
   return (
      <section className="container ">
         <div className="relative rounded-xl overflow-hidden">
-          <img
-            src="/images/hero/hero.png"
-            alt="Featured post image"
-            width={1200}
-            height={500}
-            className="w-full h-[525px] object-cover rounded-xl"
-          />
+         
+                     <Image
+                          src="/images/hero/Hero.png"
+                          alt="Office environment with technology"
+                          width={1200}
+                          height={500}
+                          className="w-full h-[525px] object-cover border rounded-lg"
+                        />
 
           <div className="absolute bottom-0 md:w-[65%] lg:w-[70%] left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent text-white">
             <div className="inline-block px-2.5 py-1 bg-[#4b6bfb] text-white text-xs font-medium rounded-md mb-4">
