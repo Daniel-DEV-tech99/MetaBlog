@@ -34,15 +34,16 @@ To get a local copy up and running, follow these steps:
 
 ### **1️⃣ Clone the Repository**
 
-```sh
-git clone https://github.com/Daniel-DEV-tech99/MetaBlogs.git
+git clone <https://github.com/Daniel-DEV-tech99/MetaBlogs.git>
 
 ### **2️⃣ Navigate into the Project Directory**
-```sh
+
 cd MetaBlogs
+
 ### **3️⃣ Install Dependencies**
-```sh
+
 npm install
+
 ### **4️⃣ Run the Development Server**
-```sh
+
 npm run dev
