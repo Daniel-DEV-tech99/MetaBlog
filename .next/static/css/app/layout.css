@@ -447,7 +447,7 @@ body {
     --card-foreground: 0 0% 98%;
     --popover: 0 0% 3.9%;
     --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
+    --primary: 234, 96%, 64%;
     --primary-foreground: 0 0% 9%;
     --secondary: 0 0% 14.9%;
     --secondary-foreground: 0 0% 98%;
@@ -759,6 +759,9 @@ input#checkboxLabel:checked ~ .box span{
 .top-full{
   top: 100%;
 }
+.right-5{
+  right: 1.25rem;
+}
 .z-10{
   z-index: 10;
 }
@@ -887,6 +890,9 @@ input#checkboxLabel:checked ~ .box span{
 .mt-\[6px\]{
   margin-top: 6px;
 }
+.ml-5{
+  margin-left: 1.25rem;
+}
 .block{
   display: block;
 }
@@ -977,6 +983,9 @@ input#checkboxLabel:checked ~ .box span{
 .h-full{
   height: 100%;
 }
+.h-6{
+  height: 1.5rem;
+}
 .w-10{
   width: 2.5rem;
 }
@@ -1021,6 +1030,9 @@ input#checkboxLabel:checked ~ .box span{
 }
 .w-full{
   width: 100%;
+}
+.w-6{
+  width: 1.5rem;
 }
 .max-w-2xl{
   max-width: 42rem;
@@ -1072,6 +1084,9 @@ input#checkboxLabel:checked ~ .box span{
 }
 .max-w-none{
   max-width: none;
+}
+.max-w-\[330px\]{
+  max-width: 330px;
 }
 .shrink-0{
   flex-shrink: 0;
@@ -1285,6 +1300,10 @@ input#checkboxLabel:checked ~ .box span{
 }
 .bg-\[\#4B6BFB0D\]{
   background-color: #4B6BFB0D;
+}
+.bg-\[\#4B6BFB\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 107 251 / var(--tw-bg-opacity));
 }
 .bg-\[\#4b6bfb\]{
   --tw-bg-opacity: 1;
@@ -2246,6 +2265,10 @@ body {
     align-items: flex-start;
   }
 
+  .md\:justify-end{
+    justify-content: flex-end;
+  }
+
   .md\:gap-x-6{
     -moz-column-gap: 1.5rem;
          column-gap: 1.5rem;
@@ -2454,6 +2477,10 @@ body {
 
   .lg\:items-start{
     align-items: flex-start;
+  }
+
+  .lg\:justify-end{
+    justify-content: flex-end;
   }
 
   .lg\:gap-x-8{

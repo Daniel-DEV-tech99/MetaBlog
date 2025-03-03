@@ -15,7 +15,7 @@ const ThemeToggler = () => {
       {/* Toggle Switch */}
       <div
         className={`relative w-12 h-7 flex items-center rounded-full p-1 cursor-pointer transition
-          ${enabled ? "bg-gray-700" : "bg-gray-300"}`}
+          ${enabled ? "bg-primary" : "bg-gray-300"}`}
         onClick={() => {
           setEnabled(!enabled);
           setTheme(enabled ? "light" : "dark");
@@ -23,7 +23,7 @@ const ThemeToggler = () => {
       >
         {/* Circle with SVG */}
         <div
-          className={`h-5 w-5 flex items-center justify-center bg-white rounded-full shadow-md transform transition-all
+          className={`h-7 w-7 flex items-center justify-center bg-white rounded-full shadow-md transform transition-all
             ${enabled ? "translate-x-6" : "translate-x-0"}`}
         >
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">

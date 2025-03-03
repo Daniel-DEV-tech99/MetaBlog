@@ -98,7 +98,7 @@ const Footer = () => {
             </div>
 
             {/* Weekly Newsletter */}
-            <div className="flex justify-end">
+            <div className="flex justify-center md:justify-end lg:justify-end ">
               <div className="border rounded-xl w-[20rem] bg-white dark:bg-[#242535] lg:p-8 md:p-1 p-4">
                 <div className="flex justify-center items-center flex-col">
               <h3 className="text-lg font-bold mb-4">Weekly Newsletter</h3>
@@ -118,7 +118,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="md:mt-16 lg:mt-16 mt-3 py-8 border-t border-[#DCDDDF] dark:border-gray-700 flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center gap-2 mb-4 md:mb-0">
+            <div className="flex items-center gap-2 mb-6 md:mb-0">
               <Image
                 src="/images/logo/footerLogo.svg"
                 alt="MetaBlog Logo"
